@@ -1,3 +1,115 @@
 .hidden {
   display: none;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "East Sea Dokdo", cursive;
+  font-size: x-large;
+}
+
+#clock {
+  margin-top: 7%;
+  margin-bottom: 4%;
+  background-color: aliceblue;
+  border: black solid 1px;
+  border-radius: 7px;
+  padding: 10px;
+  letter-spacing: 7px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black solid 1px;
+  border-radius: 5px;
+  width: 45%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+input {
+  border: none;
+  background-color: none;
+  text-align: center;
+  width: 60%;
+  font-family: "East Sea Dokdo", cursive;
+  font-size: xx-large;
+}
+button {
+  border: black solid 1px;
+  border-radius: 5px;
+  background-color: none;
+  margin-left: 20px;
+  font-size: large;
+  padding: 10px;
+}
+
+#login-form button {
+  position: absolute;
+  right: 28%;
+}
+
+#quote {
+  position: absolute;
+  bottom: 5%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  opacity: 90%;
+  width: 100%;
+}
+
+#quote span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  margin: 10px;
+}
+
+#todo-list {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  opacity: 90%;
+}
+
+li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  margin: 8px;
+}
+
+#todo-list button {
+  background-color: aliceblue;
+  border-radius: 100%;
+}
+
+#weather {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

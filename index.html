@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width" />
     <title>repl.it</title>
     <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <h2 id="clock">00:00</h2>
     <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
+      <input required maxlength="15" type="text" placeholder="이름이 뭐에요?" />
       <button>Log In</button>
     </form>
-    <h2 id="clock">00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
     <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
+      <input
+        type="text"
+        placeholder="해야하는 일 목록을 적은 후 엔터"
+        required
+      />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
       <span></span>
       <span></span>
     </div>
@@ -31,5 +38,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
